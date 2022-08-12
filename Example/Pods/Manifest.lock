@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.6.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - UploadFile (0.1.0):
+    - Moya
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Moya
+  - UploadFile (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+    - Moya
+
+EXTERNAL SOURCES:
+  UploadFile:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  UploadFile: 8212543745d7b8a4be98fb61cbec530c33be130d
+
+PODFILE CHECKSUM: 5304e937479ef83d7d42003e9ff213b843b0ac92
+
+COCOAPODS: 1.11.3

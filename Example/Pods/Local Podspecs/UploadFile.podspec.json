@@ -1,0 +1,27 @@
+{
+  "name": "UploadFile",
+  "version": "0.1.0",
+  "summary": "UploadFile to Server",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chengpeng/UploadFile",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengpeng": "Andy_Reckless@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/chengpeng/UploadFile.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UploadFile/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module UploadFile {
+  umbrella header "UploadFile-umbrella.h"
+
+  export *
+  module * { export * }
+}

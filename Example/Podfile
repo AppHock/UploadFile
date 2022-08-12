@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UploadFile_Example' do
+  pod 'UploadFile', :path => '../'
+  pod 'Moya'
+
+  target 'UploadFile_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
