@@ -9,6 +9,9 @@ import Foundation
 
 public final class Manager {
     
+    
+    public static let shared = Manager()
+    
     // 开始上传
     public func uploadFile() {
         ServiceProvider.request(.uploadData(Data(), "a", "b")) { result in
