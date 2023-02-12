@@ -17,7 +17,9 @@ public final class Manager {
                 guard let model = try? responseData.map(UPResponseModel.self) else {
                     return
                 }
+                #if DEBUG
                 print(model.name)
+                #endif 
                 // 接口成功
             } else {
                 // 接口异常
